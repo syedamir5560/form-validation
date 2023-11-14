@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --error-color: #dc3545;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210205/pngtree-flat-business-login-box-login-page-image_544861.jpg);
+}
+
+.container {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    background-image: url(https://cdn.pixabay.com/photo/2023/03/14/18/22/boho-7852928_1280.jpg);
+   
+
+}
+
+h2 {
+    text-align: center;
+    margin-right: 50px;
+}
+
+#form {
+    margin: 10px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.form-field {
+    margin-top: 20px;
+}
+
+#submit input {
+    width: 260px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+input:focus {
+    border-bottom: 2px;
+}
+
+div h1 {
+    color: red;
+}
+
+.main {
+    display: flex;
+}
+
+.card {
+    border: 5px solid black;
+    padding: 20px;
+    width: 30%;
+    border-radius: 15px;
+    display: none;
+}
+
+.card>h3 {
+    display: inline-block;
+}
+
+.card>h4 {
+    margin: 5px 0;
+    font-family: cursive;
+}
+
